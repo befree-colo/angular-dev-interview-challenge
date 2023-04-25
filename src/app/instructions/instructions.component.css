@@ -1,0 +1,26 @@
+.reqirementLabel {
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.call-button {
+  width: 7rem;
+}
+
+.answer-button {
+  background-color: #5EA100;
+  display: flex;
+  justify-content: center;
+}
+
+.hangup-button {
+  background-color: #aa2222;
+}
+
+li {
+  margin: 0.5rem 5rem 2rem 0;
+}
+
+section {
+  margin: 2rem 1rem;
+}
