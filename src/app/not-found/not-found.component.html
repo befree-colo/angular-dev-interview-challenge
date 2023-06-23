@@ -1,4 +1,11 @@
 <div class="container">
-<div><i class="material-icons" style="font-size: 3rem; margin-right: 0.5rem; color: #fca222">warning</i></div>
-<div>Page not found!</div>
+  <div>
+    <i
+      class="material-icons"
+      style="font-size: 3rem; margin-right: 0.5rem; color: #fca222"
+      >warning</i
+    >
+  </div>
+  <div *ngIf="count === 0; else notFirstTime">Page not found!</div>
+  <ng-template #notFirstTime>Page not found {{ count }} times.</ng-template>
 </div>
